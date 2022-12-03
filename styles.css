@@ -1,0 +1,72 @@
+body {
+    background: #ffddf4;
+}
+
+h1, h2, h3, p, td, li {
+    font-family: OCR A Std, monospace;
+    
+}
+
+h1, h2, h3{
+    color:#71a6d2;
+}
+h2 {
+    font-size: 30px;
+    
+}
+
+hr {
+    height: 5px;
+    border-width: 6px;
+    border-color:#f19cbb;
+    border-style: dotted none none;
+    width:8%;
+}
+
+#wrapper {
+    overflow: hidden;
+    display: flex;
+    justify-content: center
+}
+
+#button {
+    float: left;
+    padding-right: 20px;
+}
+
+img {
+    border-radius: 50%;
+}
+#container {
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+}
+
+#firstDiv {
+    background: #ffcff1;
+    margin: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+#secondDiv {
+    padding: 50px;
+}
+
+input,
+label {
+    font-family: OCR A Std, monospace;
+}
+
+label {
+    font-size: 15px;
+}
+
+#castle {
+    padding-left: 40px
+}
+#div {
+    padding: 100px;
+ }
